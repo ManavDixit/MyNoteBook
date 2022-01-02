@@ -1,0 +1,31 @@
+#navBar{
+    position: sticky;
+    top:0;
+    background: white;
+    display: flex;
+    flex-wrap:wrap;
+    border-bottom: 2px solid black;
+}
+#navBar h1{
+    margin:15px 5px;
+    font-size: 20px;
+}
+#navBar ul{
+    margin:15px 8px;
+}
+#navBar ul li{
+    list-style:none;
+}
+.active{
+    background-color:#333333 !important;
+    color:white !important;
+}
+#navBar ul li a{
+    text-decoration: none;
+    color:#000000;
+    font-size: 20px;
+    font-weight:bold;
+    padding:7px;
+    border-radius: 10px;
+}
+  

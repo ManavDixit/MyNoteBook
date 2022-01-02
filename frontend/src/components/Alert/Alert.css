@@ -1,0 +1,18 @@
+#alert{
+    background-color: #333;
+    color:white;
+    position: fixed;
+    width:100%;
+    top:auto;
+}
+#alert p{
+    padding:20px;
+}
+.success{
+    background-color: #D4EDDA !important;
+    color: #164D23 !important;
+}
+.error{
+    background-color: #F7D7DA !important;
+    color:#652327 !important;
+}
