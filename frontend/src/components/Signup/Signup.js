@@ -77,7 +77,7 @@ const Login=()=>{
         <label htmlFor="cpassword">Confirm Password:</label>
         <input type="password" id='cpassword' name='cpassword' required minLength='8' onChange={inputChanged} />
       </div>
-      <button>SignUp</button>
+      <button>Create Account</button>
       </form>
     </div>
   );
